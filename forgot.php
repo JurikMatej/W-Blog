@@ -55,7 +55,7 @@ if (isMethod('post')) {
                 $mail->setFrom(Config::USER_FROM);
                 $mail->addAddress($email); // submited mail
                 $mail->Subject = 'Forgotten Password';
-                $mail->Body = "Sum mail body lol ou je";
+                $mail->Body = "Sample mail body";
 
                 try {
                     if ($mail->send()) {
