@@ -1,0 +1,5 @@
+.pager a.active_link {
+    background: darkslateblue !important;
+    color: white;
+    text-decoration: none;
+}
